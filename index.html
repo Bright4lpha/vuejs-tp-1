@@ -11,16 +11,39 @@
     <div id="app">
         <div id="user">
             <!-- implement user functionnality -->
+            <h2>Nom utilisateur : {{user}} </h2>
         </div>
-
-        <div class="team">
-            <h3> Mon équipe</h3>
+        <div>
+            <label for="username">Nom d'utilisateur</label>
+            <input id="username" type="text" v-model="user"/>
+        </div>
+        
+        <div v-if="myTeam.length !== 0" class="team">
+            <h2> Mon équipe</h2>
             <!-- implement team functionnality -->
+            <ul v-for="(pok, i) in myTeam">
+                <li>
+                    <h3>
+                        {{pok.name.french}}
+                    </h3>
+                    <img :src="'./data/thumbnails/'+pok.id+'.png'"/>
+                    <button v-on:click=deletePokemon(pok,i)>Supprimer</button>
+                </li>
+            </ul>
         </div>
 
         <div class="pokemonList">
-            <h3> Liste des pokémons </h3>
+            <h2> Liste des pokémons </h2>
             <!-- implement pokemon functionnality -->
+            <ul v-for="(pok, i) in pokemonList">
+                <li>
+                    <h3>
+                        {{pok.name.french}}
+                    </h3>
+                    <img :src="'./data/thumbnails/'+pok.id+'.png'"/>
+                    <button v-on:click=addPokemon(pok,i)>Ajouter</button>
+                </li>
+            </ul>
         </div>
     </div>
     <script src="./app.js"></script>

@@ -1,6 +1,6 @@
 [
   {
-    "id": 001,
+    "id": "001",
     "name": {
       "english": "Bulbasaur",
       "japanese": "フシギダネ",
@@ -21,7 +21,7 @@
     }
   },
   {
-    "id": 002,
+    "id": "002",
     "name": {
       "english": "Ivysaur",
       "japanese": "フシギソウ",
@@ -42,7 +42,7 @@
     }
   },
   {
-    "id": 003,
+    "id": "003",
     "name": {
       "english": "Venusaur",
       "japanese": "フシギバナ",
@@ -63,7 +63,7 @@
     }
   },
   {
-    "id": 004,
+    "id": "004",
     "name": {
       "english": "Charmander",
       "japanese": "ヒトカゲ",
@@ -83,7 +83,7 @@
     }
   },
   {
-    "id": 005,
+    "id": "005",
     "name": {
       "english": "Charmeleon",
       "japanese": "リザード",
@@ -103,7 +103,7 @@
     }
   },
   {
-    "id": 006,
+    "id": "006",
     "name": {
       "english": "Charizard",
       "japanese": "リザードン",
@@ -124,7 +124,7 @@
     }
   },
   {
-    "id": 007,
+    "id": "007",
     "name": {
       "english": "Squirtle",
       "japanese": "ゼニガメ",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "id": 008,
+    "id": "008",
     "name": {
       "english": "Wartortle",
       "japanese": "カメール",
@@ -164,7 +164,7 @@
     }
   },
   {
-    "id": 009,
+    "id": "009",
     "name": {
       "english": "Blastoise",
       "japanese": "カメックス",
@@ -184,7 +184,7 @@
     }
   },
   {
-    "id": 010,
+    "id": "010",
     "name": {
       "english": "Caterpie",
       "japanese": "キャタピー",
@@ -204,7 +204,7 @@
     }
   },
   {
-    "id": 011,
+    "id": "011",
     "name": {
       "english": "Metapod",
       "japanese": "トランセル",
@@ -224,7 +224,7 @@
     }
   },
   {
-    "id": 012,
+    "id": "012",
     "name": {
       "english": "Butterfree",
       "japanese": "バタフリー",
@@ -245,7 +245,7 @@
     }
   },
   {
-    "id": 013,
+    "id": "013",
     "name": {
       "english": "Weedle",
       "japanese": "ビードル",
@@ -266,7 +266,7 @@
     }
   },
   {
-    "id": 014,
+    "id": "014",
     "name": {
       "english": "Kakuna",
       "japanese": "コクーン",
@@ -287,7 +287,7 @@
     }
   },
   {
-    "id": 015,
+    "id": "015",
     "name": {
       "english": "Beedrill",
       "japanese": "スピアー",
@@ -308,7 +308,7 @@
     }
   },
   {
-    "id": 016,
+    "id": "016",
     "name": {
       "english": "Pidgey",
       "japanese": "ポッポ",
@@ -329,7 +329,7 @@
     }
   },
   {
-    "id": 017,
+    "id": "017",
     "name": {
       "english": "Pidgeotto",
       "japanese": "ピジョン",
@@ -350,7 +350,7 @@
     }
   },
   {
-    "id": 018,
+    "id": "018",
     "name": {
       "english": "Pidgeot",
       "japanese": "ピジョット",
@@ -371,7 +371,7 @@
     }
   },
   {
-    "id": 019,
+    "id": "019",
     "name": {
       "english": "Rattata",
       "japanese": "コラッタ",
@@ -391,7 +391,7 @@
     }
   },
   {
-    "id": 020,
+    "id": "020",
     "name": {
       "english": "Raticate",
       "japanese": "ラッタ",
