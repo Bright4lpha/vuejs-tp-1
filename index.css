@@ -1,0 +1,54 @@
+body{
+    background-size:cover;
+  }
+  
+  .team,.pokemonList,#user{
+    border: 1px solid black;
+    margin:2em 0;
+  }
+  
+  #user{
+    width: 100%;
+    display:inline-flex;
+    padding:0 1em;
+  }
+  
+  #user input{
+    margin:auto;
+    margin-right:2em;
+  }
+  
+  .pokemonList h3, .team h3{
+    border-bottom:1px solid black;
+    text-align:center;
+    margin:auto 1em;
+    padding: 1em 0;
+    color:white;
+  }
+  
+  .pokemonList ul, .team ul{
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap:wrap;
+  }
+  
+  .pokemonList li, .team li{
+    border: 3px solid black;
+    margin: 0 5px;
+    background: #425a92;
+    border-radius:20px;
+  }
+  
+  .pokemonList img, .team img{
+    padding-top: 10px;
+    width:150px;
+  }
+  
+  .pokemonList button, .team button{
+    display: block;
+    margin: 1em auto;
+    border-radius: 20px;
+    width: 80%;
+      background-color: #b6dbff;
+      color: white;
+  }
